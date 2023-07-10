@@ -1,9 +1,14 @@
 import React from "react";
 import Shahin from "../logo/Shahin Mahmud.png";
+import background from "../logo/aboutmeback.jpeg";
 import "./aboutme.css";
 const AboutMe = () => {
   return (
-    <div className="hero   " id="aboutme">
+    <div
+      className="hero"
+      id="aboutme"
+      style={{ backgroundImage: `url(${background})` }}
+    >
       <div className="hero-content flex-col lg:flex-row-reverse">
         <img src={Shahin} alt="" className="photo" />
         <div>
