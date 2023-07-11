@@ -12,9 +12,7 @@ const AboutMe = () => {
       <div className="hero-content flex-col lg:flex-row-reverse">
         <img src={Shahin} alt="" className="photo" />
         <div>
-          <h1 className="text-5xl font-bold">
-            WelCome to My Portfolio Website
-          </h1>
+          <h1 className="text-5xl font-bold">WelCome to My Portfolio</h1>
           <p className="py-6 text-xl">
             I am a Web Developer. If you need any kind of Web Application please
             Contact With Me. I will make a better service for you.
