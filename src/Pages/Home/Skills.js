@@ -42,39 +42,120 @@ const Skills = () => {
               className="skill-slider"
             >
               <div className="item">
-                <img src="" alt="" />
+                <div
+                  className="radial-progress"
+                  style={{
+                    "--value": "90",
+                    "--size": "9rem",
+                    "--thickness": "1rem",
+                  }}
+                >
+                  90%
+                </div>
                 <h5>HTML5</h5>
               </div>
               <div className="item">
-                <img src="" alt="" />
+                <div
+                  className="radial-progress"
+                  style={{
+                    "--value": "80",
+                    "--size": "9rem",
+                    "--thickness": "1rem",
+                  }}
+                >
+                  80%
+                </div>
                 <h5>CSS3</h5>
               </div>
               <div className="item">
-                <img src="" alt="" />
+                <div
+                  className="radial-progress"
+                  style={{
+                    "--value": "70",
+                    "--size": "9rem",
+                    "--thickness": "1rem",
+                  }}
+                >
+                  70%
+                </div>
                 <h5>Javascript</h5>
               </div>
               <div className="item">
-                <img src="" alt="" />
+                <div
+                  className="radial-progress"
+                  style={{
+                    "--value": "60",
+                    "--size": "9rem",
+                    "--thickness": "1rem",
+                  }}
+                >
+                  60%
+                </div>
                 <h5>SAAS</h5>
               </div>
               <div className="item">
-                <img src="" alt="" />
+                <div
+                  className="radial-progress"
+                  style={{
+                    "--value": "50",
+                    "--size": "9rem",
+                    "--thickness": "1rem",
+                  }}
+                >
+                  50%
+                </div>
                 <h5>Bootsrap</h5>
               </div>
               <div className="item">
-                <img src="" alt="" />
+                <div
+                  className="radial-progress"
+                  style={{
+                    "--value": "50",
+                    "--size": "9rem",
+                    "--thickness": "1rem",
+                  }}
+                >
+                  50%
+                </div>
                 <h5>Tailwind</h5>
               </div>
               <div className="item">
-                <img src="" alt="" />
+                <div
+                  className="radial-progress"
+                  style={{
+                    "--value": "60",
+                    "--size": "9rem",
+                    "--thickness": "1rem",
+                  }}
+                >
+                  60%
+                </div>
                 <h5>React</h5>
               </div>
               <div className="item">
-                <img src="" alt="" />
+                <div
+                  className="radial-progress"
+                  style={{
+                    "--value": "40",
+                    "--size": "9rem",
+                    "--thickness": "1rem",
+                  }}
+                >
+                  40%
+                </div>
                 <h5>Node</h5>
               </div>
               <div className="item">
-                <img src="" alt="" />
+                <div
+                  className="radial-progress"
+                  style={{
+                    "--value": "40",
+                    "--size": "9rem",
+                    "--thickness": "1rem",
+                  }}
+                >
+                  40%
+                </div>
                 <h5>MongoDB</h5>
               </div>
             </Carousel>
