@@ -1,5 +1,6 @@
 import { Route, Routes } from "react-router-dom";
 import "./App.css";
+import darksky from "../src/Pages/logo/dark sky.jpeg";
 
 import Home from "./Pages/Home/Home";
 import Projects from "./Pages/Home/Projects";
@@ -11,7 +12,10 @@ import Header from "./Pages/Shared/Header";
 
 function App() {
   return (
-    <div className="max-w-7xl mx-auto App">
+    <div
+      className="max-w-7xl mx-auto App"
+      style={{ backgroundImage: `url(${darksky})` }}
+    >
       <Header></Header>
       <Routes>
         <Route path="/" element={<Home></Home>} />

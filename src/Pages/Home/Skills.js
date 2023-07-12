@@ -2,6 +2,7 @@ import React from "react";
 import { Container, Row } from "react-bootstrap";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
+import "../Home/skill.css";
 
 const Skills = () => {
   const responsive = {
@@ -24,15 +25,16 @@ const Skills = () => {
     },
   };
   return (
-    <section id="Skills" className="skills">
+    <section id="Skills" className="skill">
       <Container>
         <Row>
           <div className="skill-bx">
             <h2>Skills</h2>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque,
-              non! <br /> <br /> Lorem ipsum dolor sit amet consectetur
-              adipisicing elit. Iure, officiis?
+              non! Lorem ipsum dolor sit amet <br /> consectetur non! Lorem
+              ipsum dolor sit amet consectetur non! Lorem ipsum dolor sit amet
+              consectetur.
             </p>
             <Carousel
               responsive={responsive}
@@ -61,7 +63,19 @@ const Skills = () => {
               </div>
               <div className="item">
                 <img src="" alt="" />
+                <h5>Tailwind</h5>
+              </div>
+              <div className="item">
+                <img src="" alt="" />
                 <h5>React</h5>
+              </div>
+              <div className="item">
+                <img src="" alt="" />
+                <h5>Node</h5>
+              </div>
+              <div className="item">
+                <img src="" alt="" />
+                <h5>MongoDB</h5>
               </div>
             </Carousel>
           </div>

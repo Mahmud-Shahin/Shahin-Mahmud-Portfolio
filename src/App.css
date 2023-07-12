@@ -11,7 +11,8 @@ body{
   font-weight: 400;
   overflow-x: hidden;
   position: relative;
-  background-color: #121212;
+  /* background-color: #121212; */
+  background-image: url("./Pages/logo/dark\ sky.jpeg");
   color: #fff;
 
 }
