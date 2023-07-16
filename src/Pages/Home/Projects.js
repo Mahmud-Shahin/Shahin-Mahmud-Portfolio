@@ -1,27 +1,27 @@
 import React from "react";
+import Tab from "react-bootstrap/Tab";
+import Tabs from "react-bootstrap/Tabs";
+import ComplexButton from "./ComplexButton/ComplexButton";
 
 const Projects = () => {
   return (
-    <div className="drawer" id="Projects">
-      <input id="my-drawer" type="checkbox" className="drawer-toggle" />
-      <div className="drawer-content">
-        {/* Page content here */}
-        <label htmlFor="my-drawer" className="btn btn-primary drawer-button">
-          Open drawer
-        </label>
-      </div>
-      <div className="drawer-side">
-        <label htmlFor="my-drawer" className="drawer-overlay"></label>
-        <ul className="menu p-4 w-80 h-full bg-base-200 text-base-content">
-          {/* Sidebar content here */}
-          <li>
-            <a>Sidebar Item 1</a>
-          </li>
-          <li>
-            <a>Sidebar Item 2</a>
-          </li>
-        </ul>
-      </div>
+    <div id="Projects">
+      <Tabs
+        defaultActiveKey="profile"
+        id="justify-tab-example"
+        className="mb-3"
+        justify
+      >
+        <Tab eventKey="home" title="Project One">
+          <ComplexButton></ComplexButton>
+        </Tab>
+        <Tab eventKey="profile" title="Project Two">
+          <ComplexButton></ComplexButton>
+        </Tab>
+        <Tab eventKey="longer-tab" title="Project Three">
+          <ComplexButton></ComplexButton>
+        </Tab>
+      </Tabs>
     </div>
   );
 };
