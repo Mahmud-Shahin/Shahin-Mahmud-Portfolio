@@ -3,38 +3,54 @@ import { styled } from "@mui/material/styles";
 import Box from "@mui/material/Box";
 import ButtonBase from "@mui/material/ButtonBase";
 import Typography from "@mui/material/Typography";
-
+import doctors from "./doctors.PNG";
 const ComplexButton = () => {
   const images = [
     {
-      url: "/src/Pages/project/doctors.PNG",
+      url: doctors,
       title: "Doctors Portal",
-      width: "40%",
+      width: "33%",
     },
     {
-      url: "/static/images/buttons/burgers.jpg",
+      url: doctors,
       title: "Genius Cars",
-      width: "30%",
+      width: "33%",
     },
     {
-      url: "/static/images/buttons/camera.jpg",
+      url: doctors,
       title: "Camera",
-      width: "30%",
+      width: "33%",
     },
+
     {
-      url: "/src/Pages/project/doctors portal.PNG",
+      url: doctors,
       title: "Doctors Portal",
-      width: "40%",
+      width: "33%",
     },
     {
-      url: "/static/images/buttons/burgers.jpg",
+      url: doctors,
       title: "Burgers",
-      width: "30%",
+      width: "33%",
     },
     {
-      url: "/static/images/buttons/camera.jpg",
+      url: doctors,
       title: "Camera",
-      width: "30%",
+      width: "33%",
+    },
+    {
+      url: doctors,
+      title: "Doctors Portal",
+      width: "33%",
+    },
+    {
+      url: doctors,
+      title: "Burgers",
+      width: "33%",
+    },
+    {
+      url: doctors,
+      title: "Camera",
+      width: "33%",
     },
   ];
 
