@@ -22,7 +22,7 @@ const ContactMe = () => {
           placeholder="Your message"
         ></textarea>
         <div className="btn-box form-btn">
-          <button type="submit" className="btn">
+          <button type="submit" className="btn btn-active btn-accent">
             Send Message
           </button>
         </div>

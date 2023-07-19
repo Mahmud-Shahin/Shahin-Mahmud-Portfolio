@@ -44,6 +44,7 @@ const Header = () => {
             >
               Home
             </Nav.Link>
+            <Nav.Link href="#aboutme">About me</Nav.Link>
 
             <Nav.Link
               href="#Skills"
@@ -65,15 +66,6 @@ const Header = () => {
               Projects
             </Nav.Link>
             <Nav.Link href="#contactme">Contact me</Nav.Link>
-            <Nav.Link href="#aboutme">About me</Nav.Link>
-
-            <Button
-              variant="warning"
-              className=""
-              onClick={() => console.log("connect")}
-            >
-              Let's Connect
-            </Button>
           </Nav>
         </Navbar.Collapse>
       </Container>
