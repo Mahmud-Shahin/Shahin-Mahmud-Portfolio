@@ -4,7 +4,7 @@ import doctors from "../project/doctors.PNG";
 const Projects = () => {
   return (
     <section className="work-box">
-      <div>
+      <div className="main-text">
         <h2>Latest Project</h2>
         <span>What I will do for you</span>
       </div>
@@ -27,7 +27,7 @@ const Projects = () => {
             </div>
           </div>
         </div>
-        **************
+
         <div className="row portfolio-gallary">
           <div className="col-lg-4 mix port-box all  web-site  ">
             <div className="port-image">
@@ -111,7 +111,7 @@ const Projects = () => {
           </div>
         </div>
       </div>
-      ************************
+
       {/* <div className="container">
         <div className="row">
           <div className="col-lg-12">
