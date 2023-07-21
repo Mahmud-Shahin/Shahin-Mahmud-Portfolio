@@ -10,10 +10,9 @@ const ContactMe = () => {
       </div>
       <form action="#">
         <input type="text" placeholder="Your name" />
-        <input type="email" placeholder="Your name" />
-        <input type="text" placeholder="Your address" />
-        <input type="text" placeholder="Your address" />
+        <input type="email" placeholder="Your email" />
         <input type="number" placeholder="Your Number" />
+
         <textarea
           name=""
           id=""

@@ -81,3 +81,43 @@
   font-size: .8rem;
   margin: 5px 0 15px 0;
 }
+
+/* ------------- */
+
+
+.box-item{
+    margin-bottom: 30px;
+
+}
+img{
+    max-width: 100%;
+}
+.box-item img{
+   height: 100%;
+   max-height: 300px;
+   width: 100%;
+   object-fit: cover;
+}
+.box-menu{
+    text-align: center;
+    margin: 2rem;
+}
+.box-menu ul {
+    padding: 0;
+    margin: 0;
+}
+.box-menu ul li{
+    background: none;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-size: .90rem;
+    font-weight: 600;
+    letter-spacing: .4px;
+    margin-left: 1.3rem;
+    color: aliceblue;
+    display: inline-block;
+}
+.box-menu ul li:hover{
+   color: rgb(224, 171, 106); 
+}

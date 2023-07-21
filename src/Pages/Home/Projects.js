@@ -1,53 +1,35 @@
 import React from "react";
-
 import "./projects.css";
 import doctors from "../project/doctors.PNG";
-import { Link } from "react-router-dom";
 const Projects = () => {
   return (
-    // <div id="Projects">
-    //   <div className="project-box">
-    //     <h2 className="project-h2">Latest Projects</h2>
-    //     <p className="project-p">
-    //       Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, non!
-    //       Lorem ipsum dolor sit amet <br /> consectetur non! Lorem ipsum dolor
-    //       sit amet consectetur non! Lorem ipsum dolor sit amet consectetur.
-    //     </p>
-    //   </div>
-    //   <Tabs
-    //     defaultActiveKey="profile"
-    //     id="justify-tab-example"
-    //     className="mb-3"
-    //     justify
-    //   >
-    //     <Tab eventKey="home" title="Project One">
-    //       <ComplexButton></ComplexButton>
-    //     </Tab>
-    //     <Tab eventKey="profile" title="Project Two">
-    //       <ComplexButton></ComplexButton>
-    //     </Tab>
-    //     <Tab eventKey="longer-tab" title="Project Three">
-    //       <ComplexButton></ComplexButton>
-    //     </Tab>
-    //   </Tabs>
-    // </div>
-
-    <section>
+    <section className="work-box">
       <div>
         <h2>Latest Project</h2>
         <span>What I will do for you</span>
       </div>
-
       <div className="container">
-        <div className="filter-button">
-          <button className="btn">All</button>
-          <button className="btn">Product</button>
-          <button className="btn"> website</button>
-          <button className="btn">React Application</button>
+        <div className="row">
+          <div className="col-lg-12">
+            <div className="filter-button mixitup-control-active">
+              <button className="btn " data-filter=".all">
+                All
+              </button>
+              <button className="btn" data-filter=".product">
+                Product
+              </button>
+              <button className="btn" data-filter=".web-site">
+                website
+              </button>
+              <button className="btn" data-filter=".web-application">
+                Web Application
+              </button>
+            </div>
+          </div>
         </div>
-
-        <div className="portfolio-gallary">
-          <div className="port-box">
+        **************
+        <div className="row portfolio-gallary">
+          <div className="col-lg-4 mix port-box all  web-site  ">
             <div className="port-image">
               <img src={doctors} alt="" />
             </div>
@@ -58,21 +40,10 @@ const Projects = () => {
                 maiores ipsa eligendi velit rem recusandae impedit provident
                 architecto officiis suscipit!
               </p>
-              <a>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                  className="fill-current"
-                >
-                  <path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"></path>
-                </svg>
-              </a>
             </div>
           </div>
 
-          <div className="port-box">
+          <div className="col-lg-4 mix  port-box all  web-site  ">
             <div className="port-image">
               <img src={doctors} alt="" />
             </div>
@@ -83,13 +54,10 @@ const Projects = () => {
                 maiores ipsa eligendi velit rem recusandae impedit provident
                 architecto officiis suscipit!
               </p>
-              <a href="">
-                <i class="bx bx-link"></i>
-              </a>
             </div>
           </div>
 
-          <div className="port-box">
+          <div className="col-lg-4 mix port-box all  web-application  ">
             <div className="port-image">
               <img src={doctors} alt="" />
             </div>
@@ -100,12 +68,9 @@ const Projects = () => {
                 maiores ipsa eligendi velit rem recusandae impedit provident
                 architecto officiis suscipit!
               </p>
-              <a href="">
-                <i class="bx bx-link"></i>
-              </a>
             </div>
           </div>
-          <div className="port-box">
+          <div className="col-lg-4 mix port-box all  web-application  ">
             <div className="port-image">
               <img src={doctors} alt="" />
             </div>
@@ -116,12 +81,9 @@ const Projects = () => {
                 maiores ipsa eligendi velit rem recusandae impedit provident
                 architecto officiis suscipit!
               </p>
-              <a href="">
-                <i class="bx bx-link"></i>
-              </a>
             </div>
           </div>
-          <div className="port-box">
+          <div className="col-lg-4 mix port-box all product  ">
             <div className="port-image">
               <img src="" alt="" />
             </div>
@@ -132,12 +94,9 @@ const Projects = () => {
                 maiores ipsa eligendi velit rem recusandae impedit provident
                 architecto officiis suscipit!
               </p>
-              <a href="">
-                <i class="bx bx-link"></i>
-              </a>
             </div>
           </div>
-          <div className="port-box">
+          <div className="col-lg-4 mix port-box all product  ">
             <div className="port-image">
               <img src="" alt="" />
             </div>
@@ -148,13 +107,48 @@ const Projects = () => {
                 maiores ipsa eligendi velit rem recusandae impedit provident
                 architecto officiis suscipit!
               </p>
-              <a href="">
-                <i class="bx bx-link"></i>
-              </a>
             </div>
           </div>
         </div>
       </div>
+      ************************
+      {/* <div className="container">
+        <div className="row">
+          <div className="col-lg-12">
+            <div className="box-menu">
+              <ul>
+                <li className="mixitup-control-active" data-filter=".all">
+                  All
+                </li>
+                <li data-filter=".product">product</li>
+                <li data-filter=".web-site">web site </li>
+                <li data-filter=".web-application">Web Application</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div className="row box-list">
+          <div className="col-lg-4 mix box-item  all  web-site  ">
+            <img src={doctors} alt="" />
+          </div>
+          <div className="col-lg-4 mix box-item all web-site">
+            <img src={doctors} alt="" />
+          </div>
+          <div className="col-lg-4 mix box-item all  web-application  ">
+            <img src={doctors} alt="" />
+          </div>
+          <div className="col-lg-4 mix box-item all web-application">
+            <img src={doctors} alt="" />
+          </div>
+          <div className="col-lg-4 mix box-item all product">
+            <img src={doctors} alt="" />
+          </div>
+          <div className="col-lg-4 mix box-item all product">
+            <img src={doctors} alt="" />
+          </div>
+        </div>
+      </div> */}
     </section>
   );
 };
