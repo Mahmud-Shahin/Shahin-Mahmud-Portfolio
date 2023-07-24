@@ -3,10 +3,10 @@ import "./projects.css";
 import doctors from "../project/doctors.PNG";
 const Projects = () => {
   return (
-    <section className="work-box">
+    <section className="work-box" id="Projects">
       <div className="main-text">
         <h2>Latest Project</h2>
-        <span>What I will do for you</span>
+        <span>All of my latest projects are attached here</span>
       </div>
       <div className="container">
         <div className="row">

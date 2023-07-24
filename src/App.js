@@ -1,7 +1,6 @@
 import { Route, Routes } from "react-router-dom";
 import "./App.css";
 import darksky from "../src/Pages/logo/dark sky.jpeg";
-
 import Home from "./Pages/Home/Home";
 import Projects from "./Pages/Home/Projects";
 import Skills from "./Pages/Home/Skills";

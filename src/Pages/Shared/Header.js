@@ -29,7 +29,9 @@ const Header = () => {
       className={scrolled ? "scrolled" : ""}
     >
       <Container>
-        <Navbar.Brand href="/">Shahin Mahmud</Navbar.Brand>
+        <Navbar.Brand href="/">
+          <h1 className="text-warning">Shahin Mahmud</h1>
+        </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto"></Nav>

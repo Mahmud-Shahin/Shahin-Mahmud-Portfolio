@@ -29,13 +29,10 @@ const Skills = () => {
       <Container>
         <Row>
           <div className="skill-bx">
-            <h2>Skills</h2>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque,
-              non! Lorem ipsum dolor sit amet <br /> consectetur non! Lorem
-              ipsum dolor sit amet consectetur non! Lorem ipsum dolor sit amet
-              consectetur.
-            </p>
+            <div className="main-text">
+              <h2> My Skill</h2>
+              <span>All my Skills here</span>
+            </div>
             <Carousel
               responsive={responsive}
               infinite={true}
@@ -43,120 +40,120 @@ const Skills = () => {
             >
               <div className="item">
                 <div
-                  className="radial-progress"
+                  className="radial-progress text-warning"
                   style={{
                     "--value": "90",
-                    "--size": "9rem",
+                    "--size": "7rem",
                     "--thickness": "1rem",
                   }}
                 >
                   90%
                 </div>
-                <h5>HTML5</h5>
+                <h5 className="text-warning">HTML5</h5>
               </div>
               <div className="item">
                 <div
-                  className="radial-progress"
+                  className="radial-progress text-warning"
                   style={{
                     "--value": "80",
-                    "--size": "9rem",
+                    "--size": "7rem",
                     "--thickness": "1rem",
                   }}
                 >
                   80%
                 </div>
-                <h5>CSS3</h5>
+                <h5 className="text-warning">CSS3</h5>
               </div>
               <div className="item">
                 <div
-                  className="radial-progress"
+                  className="radial-progress text-warning"
                   style={{
                     "--value": "70",
-                    "--size": "9rem",
+                    "--size": "7rem",
                     "--thickness": "1rem",
                   }}
                 >
                   70%
                 </div>
-                <h5>Javascript</h5>
+                <h5 className="text-warning">Javascript</h5>
               </div>
               <div className="item">
                 <div
-                  className="radial-progress"
+                  className="radial-progress text-warning"
                   style={{
                     "--value": "60",
-                    "--size": "9rem",
+                    "--size": "7rem",
                     "--thickness": "1rem",
                   }}
                 >
                   60%
                 </div>
-                <h5>SAAS</h5>
+                <h5 className="text-warning">SAAS</h5>
               </div>
               <div className="item">
                 <div
-                  className="radial-progress"
+                  className="radial-progress text-warning"
                   style={{
                     "--value": "50",
-                    "--size": "9rem",
+                    "--size": "7rem",
                     "--thickness": "1rem",
                   }}
                 >
                   50%
                 </div>
-                <h5>Bootsrap</h5>
+                <h5 className="text-warning">Bootsrap</h5>
               </div>
               <div className="item">
                 <div
-                  className="radial-progress"
+                  className="radial-progress text-warning"
                   style={{
                     "--value": "50",
-                    "--size": "9rem",
+                    "--size": "7rem",
                     "--thickness": "1rem",
                   }}
                 >
                   50%
                 </div>
-                <h5>Tailwind</h5>
+                <h5 className="text-warning">Tailwind</h5>
               </div>
               <div className="item">
                 <div
-                  className="radial-progress"
+                  className="radial-progress text-warning"
                   style={{
                     "--value": "60",
-                    "--size": "9rem",
+                    "--size": "7rem",
                     "--thickness": "1rem",
                   }}
                 >
                   60%
                 </div>
-                <h5>React</h5>
+                <h5 className="text-warning">React</h5>
               </div>
               <div className="item">
                 <div
-                  className="radial-progress"
+                  className="radial-progress text-warning"
                   style={{
                     "--value": "40",
-                    "--size": "9rem",
+                    "--size": "7rem",
                     "--thickness": "1rem",
                   }}
                 >
                   40%
                 </div>
-                <h5>Node</h5>
+                <h5 className="text-warning">Node</h5>
               </div>
               <div className="item">
                 <div
-                  className="radial-progress"
+                  className="radial-progress text-warning"
                   style={{
                     "--value": "40",
-                    "--size": "9rem",
+                    "--size": "7rem",
                     "--thickness": "1rem",
                   }}
                 >
                   40%
                 </div>
-                <h5>MongoDB</h5>
+                <h5 className="text-warning">MongoDB</h5>
               </div>
             </Carousel>
           </div>

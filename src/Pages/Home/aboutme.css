@@ -2,3 +2,54 @@
     height: 500px;
     weight: 500px;
 }
+.Dynamic-text{
+    animation: animate 4s steps(12) infinite;
+}
+.animation{
+    display: inline-flex;
+}
+.animation .static-text{
+    color: #fff;
+    font-size: 60px;
+    font-weight: 500;
+}
+.animation .Dynamic-text{
+ margin-left: 15px;
+ height: 90px;
+ line-height: 90px;
+ overflow: hidden;
+}
+ .Dynamic-text li{
+    /* color: bisque;s */
+   list-style: none;
+   font-size: 50px;
+   font-weight: 500; 
+   position: relative;
+   top: 0;
+   animation: slide 6s steps(4) infinite;
+ }
+
+ @keyframes slide{
+    100%{
+        top: -360px;
+    }
+}
+.Dynamic-text li span{
+    position: relative;
+}
+.Dynamic-text li span::after{
+    left: 0;
+    content: '';
+    position: absolute;
+    background: #343f4f;
+    height: 100%;
+    width: 100%;
+    border-left: 2px solid bisque ;
+    animation: typing 1.5s steps(10) infinite;
+}
+@keyframes typing{
+    100%{
+        left: 100%;
+        margin: 0 -35px 0 35px;
+    }
+}
