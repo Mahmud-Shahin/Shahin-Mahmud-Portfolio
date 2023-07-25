@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "name": "Ui/Ux Design",
+        "description": "I will make ui/ux design for you",
+        "img": ""
+    },
+    {
+        "id": 2,
+        "name": "Web Design & Development",
+        "description": "I will makeWeb Design & Development design for you",
+        "img": ""
+    }, 
+    {
+        "id": 3,
+        "name": "Web appplication",
+        "description": "I will make Web application for you",
+        "img": ""
+    }
+    
+    
+]
