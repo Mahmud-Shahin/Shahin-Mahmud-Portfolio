@@ -1,6 +1,11 @@
 import React from "react";
 import "./projects.css";
-import doctors from "../project/doctors.PNG";
+import projectOne from "../../project/project (1).PNG";
+import projectTwo from "../../project/project (2).PNG";
+import projectThree from "../../project/project (3).PNG";
+import projectFour from "../../project/project (4).PNG";
+import projectFive from "../../project/project (5).PNG";
+import projectSix from "../../project/project (6).PNG";
 const Projects = () => {
   return (
     <section className="work-box" id="Projects">
@@ -31,7 +36,7 @@ const Projects = () => {
         <div className="row portfolio-gallary">
           <div className="col-lg-4 mix port-box all  web-site  ">
             <div className="port-image">
-              <img src={doctors} alt="" />
+              <img src={projectOne} alt="" />
             </div>
             <div className="port-content">
               <h3>React Application</h3>
@@ -45,7 +50,7 @@ const Projects = () => {
 
           <div className="col-lg-4 mix  port-box all  web-site  ">
             <div className="port-image">
-              <img src={doctors} alt="" />
+              <img src={projectTwo} alt="" />
             </div>
             <div className="port-content">
               <h3>React Application</h3>
@@ -59,7 +64,7 @@ const Projects = () => {
 
           <div className="col-lg-4 mix port-box all  web-application  ">
             <div className="port-image">
-              <img src={doctors} alt="" />
+              <img src={projectThree} alt="" />
             </div>
             <div className="port-content">
               <h3>React Application</h3>
@@ -72,7 +77,7 @@ const Projects = () => {
           </div>
           <div className="col-lg-4 mix port-box all  web-application  ">
             <div className="port-image">
-              <img src={doctors} alt="" />
+              <img src={projectFour} alt="" />
             </div>
             <div className="port-content">
               <h3>React Application</h3>
@@ -85,7 +90,7 @@ const Projects = () => {
           </div>
           <div className="col-lg-4 mix port-box all product  ">
             <div className="port-image">
-              <img src="" alt="" />
+              <img src={projectFive} alt="" />
             </div>
             <div className="port-content">
               <h3>React Application</h3>
@@ -98,7 +103,7 @@ const Projects = () => {
           </div>
           <div className="col-lg-4 mix port-box all product  ">
             <div className="port-image">
-              <img src="" alt="" />
+              <img src={projectSix} alt="" />
             </div>
             <div className="port-content">
               <h3>React Application</h3>

@@ -1,21 +1,21 @@
 [
     {
         "id": 1,
-        "name": "Ui/Ux Design",
-        "description": "I will make ui/ux design for you",
-        "img": ""
+        "name": "Web site Design",
+        "description": "I will make website design for you",
+        "img": "https://images.pexels.com/photos/3888151/pexels-photo-3888151.jpeg?auto=compress&cs=tinysrgb&w=1600"
     },
     {
         "id": 2,
         "name": "Web Design & Development",
-        "description": "I will makeWeb Design & Development design for you",
-        "img": ""
+        "description": "I will makeWeb Development design for you",
+        "img": "https://images.pexels.com/photos/160107/pexels-photo-160107.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     }, 
     {
         "id": 3,
         "name": "Web appplication",
         "description": "I will make Web application for you",
-        "img": ""
+        "img": "https://images.pexels.com/photos/5829726/pexels-photo-5829726.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     }
     
     

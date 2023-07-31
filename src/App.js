@@ -8,6 +8,7 @@ import AboutMe from "./Pages/Home/AboutMe";
 import Footer from "./Pages/Shared/Footer";
 import ContactMe from "./Pages/Home/ContactMe";
 import Header from "./Pages/Shared/Header";
+import Services from "./Pages/Home/Services/Services";
 
 function App() {
   return (
@@ -18,7 +19,7 @@ function App() {
       <Header></Header>
       <Routes>
         <Route path="/" element={<Home></Home>} />
-
+        <Route path="/service" element={<Services></Services>} />
         <Route path="/aboutme" element={<AboutMe></AboutMe>} />
         <Route path="/Skills" element={<Skills></Skills>} />
         <Route path="/Projects" element={<Projects></Projects>} />
