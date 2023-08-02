@@ -1,20 +1,20 @@
 [
     {
         "id": 1,
-        "name": "Web site Design",
-        "description": "I will make website design for you",
+        "name": "Web Application",
+        "description": "I will make web Application for you",
         "img": "https://images.pexels.com/photos/3888151/pexels-photo-3888151.jpeg?auto=compress&cs=tinysrgb&w=1600"
     },
     {
         "id": 2,
         "name": "Web Design & Development",
-        "description": "I will makeWeb Development design for you",
+        "description": "I will make Web Development  for you",
         "img": "https://images.pexels.com/photos/160107/pexels-photo-160107.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     }, 
     {
         "id": 3,
-        "name": "Web appplication",
-        "description": "I will make Web application for you",
+        "name": "React appplication",
+        "description": "I will make React application for you",
         "img": "https://images.pexels.com/photos/5829726/pexels-photo-5829726.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     }
     

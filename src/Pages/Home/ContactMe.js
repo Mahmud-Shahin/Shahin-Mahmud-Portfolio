@@ -1,10 +1,34 @@
-import React, { useState } from "react";
+import React, { useRef, useState } from "react";
 import { ToastContainer, toast } from "react-toastify";
+import emailjs from "@emailjs/browser";
 // import firebaseDB from "../../firebase";
 import "react-toastify/dist/ReactToastify.css";
 import "./contactme.scss";
 
 const ContactMe = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_c0fkljq",
+        "template_ttveggk",
+        form.current,
+        "BFgJFDBApTVr0grZw"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+    e.target.reset();
+  };
+
   const [state, setState] = useState({
     name: "",
     email: "",
@@ -43,10 +67,12 @@ const ContactMe = () => {
                   <div className="contact-wrap w-100 p-lg-5 p-4">
                     <h3 className="mb-4 ">Send me massage</h3>
                     <form
+                      ref={form}
                       action=""
                       id="#contactform"
                       className="contactform"
-                      onSubmit={handlSubmit}
+                      // onSubmit={handlSubmit}
+                      onSubmit={sendEmail}
                     >
                       <div className="row">
                         <div className="col-md-12">
